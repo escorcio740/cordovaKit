@@ -1,0 +1,14 @@
+{
+	"author": "Luis Escorcio",
+	"charset": "UTF-8",
+	"mode": "production",
+	"appName": "cordovaApp",
+	"appVersion": "0.0.1",
+	"ads":{
+		"banner": "ca-app-pub-6348604033385692/7909178367",
+		"interstitial": "ca-app-pub-6348604033385692/9018439420",
+		"rewardVideo": "ca-app-pub-6348604033385692/8757573213"
+	},
+	"defaultLanguage": "English",
+	"serverConfig": "serverConfig.json"
+}
