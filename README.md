@@ -18,13 +18,21 @@ To start have sure you have npm and cordova installed
 - 8 - Setup the enviroment variables.
    * 8.1 - Go to your Control Panel -> System and Security -> System -> Advanced System Settings.
    * 8.2 - Click on Enviroment Variables
-   * 8.3 - Localize Path on first table (just to be sure add on second one too) and add this new entries :
+   * 8.3 - On bottom table click on "New..." and type 'JAVA_HOME' on first input and "C:\Program Files\Java\DISTRIBUTION_YOU_DOWNLOADED_ON_STEP_5" on second one. Press ok.
+   * 8.4 - Localize "Path" on bottom table also, double click it and add this new entries :
       * 8.3.1) `C:\Gradle\bin`
       * 8.3.2) `C:\Users\YOUR_USER_NAME\AppData\Roaming\Composer\vendor\bin`
       * 8.3.3) `C:\Program Files (x86)\Google\Chrome\Application (optional)`
       * 8.3.4) `C:\Program Files\Java\DISTRIBUTION_YOU_DOWNLOADED_ON_STEP_5\bin`
       * 8.3.5) `C:\Users\YOUR_USER_NAME\AppData\Local\Android\Sdk\platform-tools`
       * 8.3.6) `C:\Program Files\Git\cmd`
-  - 9 - Build the project using cmd ! Open the .bat file and follow the instructions !
 
-  
+## After installation
+
+- 1 - Update the android version on your machine running this two command : 
+  * 1.1 - `cordova platform remove android`
+    1.2 - `cordova platform add android@8.0.0`
+- 2 - Go to firebase and download `google-services.json` ignore if you don't want this feature for now.
+- 3 - Run the .bat file and create a project.
+- 4 - Upload the google-services.json to the `project/www/` folder. (If you don't want the feature on step 2 YOU MUST `cordova plugin remove cordova-plugin-firebasex`
+- 5 - Run `cordova build android`
