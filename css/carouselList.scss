@@ -1,0 +1,10 @@
+.carouselList{
+	position: absolute;
+
+	.carouselListWrapper{
+		position: relative;
+	    overflow-y: scroll;
+	    width: 100%;
+	    height: 100%;
+    }
+}

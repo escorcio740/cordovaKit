@@ -1,0 +1,66 @@
+.grid {
+  position: absolute; }
+  .grid .gridWrapper {
+    position: relative;
+    overflow-y: scroll; }
+    .grid .gridWrapper .gridItem {
+      display: inline-block; }
+      .grid .gridWrapper .gridItem .imageWrapper {
+        width: 100%;
+        height: 60%;
+        position: relative; }
+        .grid .gridWrapper .gridItem .imageWrapper img {
+          width: 100%;
+          height: 100%;
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px; }
+        .grid .gridWrapper .gridItem .imageWrapper .imageBlur {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          background-color: rgba(0, 0, 0, 0.5);
+          top: 50%;
+          background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)); }
+        .grid .gridWrapper .gridItem .imageWrapper .imageDescription {
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          top: 80%; }
+          .grid .gridWrapper .gridItem .imageWrapper .imageDescription .leftInformation, .grid .gridWrapper .gridItem .imageWrapper .imageDescription .rightInformation {
+            display: inline-block;
+            width: 45%;
+            height: 100%;
+            color: white;
+            font-size: 5vw;
+            font-family: Arial, sans-serif; }
+          .grid .gridWrapper .gridItem .imageWrapper .imageDescription .leftInformation {
+            text-align: left;
+            margin-left: 5%; }
+          .grid .gridWrapper .gridItem .imageWrapper .imageDescription .rightInformation {
+            text-align: right;
+            margin-right: 5%; }
+      .grid .gridWrapper .gridItem .descriptionWrapper {
+        width: 100%;
+        height: 30%;
+        position: relative;
+        background-color: #181818;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px; }
+        .grid .gridWrapper .gridItem .descriptionWrapper .title, .grid .gridWrapper .gridItem .descriptionWrapper .description {
+          color: white;
+          font-size: 3vw;
+          font-family: Arial, sans-serif; }
+        .grid .gridWrapper .gridItem .descriptionWrapper .title {
+          padding-top: 5%;
+          padding-left: 5%; }
+        .grid .gridWrapper .gridItem .descriptionWrapper .description {
+          padding-top: 1%;
+          padding-left: 5%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+  .grid .gridTitle {
+    position: absolute;
+    display: block; }
+
+/*# sourceMappingURL=grid.css.map */
