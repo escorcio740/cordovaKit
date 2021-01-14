@@ -27,4 +27,9 @@ To start have sure you have npm and cordova installed
       * 8.3.6) `C:\Program Files\Git\cmd`
   - 9 - Build the project using cmd ! Open the .bat file and follow the instructions !
 
-  
+
+## After installation
+
+- 1 - Update the android version on your machine running this two command : 
+  * 1.1 - `cordova platform remove android`
+    1.2 - `cordova platform add android@8.0.0`
